@@ -1,44 +1,68 @@
-# Assignment 1: Load and Explore Data
+# Data Science Assignments
 
 ## Course Information
-- Course: Introduction to Data Science 
-- Course Teacher: Dr. Muhammad Abul Hasan 
+- Course: Introduction to Data Science
+- Course Teacher: Dr. Muhammad Abul Hasan
 - Department: Artificial Intelligence and Data Science
 
 
-## Objective
-The objective of this assignment is to load a CSV dataset obtained from the internet and perform basic Exploratory Data Analysis (EDA) using both Python and R.
+## Overview
 
-## Dataset
-- Dataset Name:Space_Corrected.csv
-- Source:Kaggle
-- Short Description:Contains historical records of space missions, including company names, launch locations, dates, rocket status, and mission outcomes.
+### Assignment 1: Load and Explore Data
+- objective: Load a CSV dataset and perform basic exploratory data analysis (EDA) using Python and R.
+- Dataset: `Space_Corrected.csv` (Historical space mission records)
+- Tasks Completed:
+  - Loaded the CSV dataset
+  - Displayed the first 5 rows
+  - Listed all column names
+  - Displayed the number of rows and columns
+  - Generated summary statistics
 
-## Tasks Completed
-- Load CSV dataset
-- Display first 5 rows
-- Show column names
-- Show rows & columns
-- Summary statistics
+### Assignment 2: Creating New Columns
+- Objective: Create a new column and apply a condition using Python and R.
+- Dataset: `Space_Corrected.csv`
+- Tasks Completed:
+  - Created two dummy score columns (`Score1` and `Score2`)
+  - Calculated the `Average Score`
+  - Applied a condition to classify each record as Pass or Fail
+  - Displayed the resulting output
+
+### Assignment 3: Sorting Data
+- Objective: Sort the dataset by a specific column in ascending order using Python and R.
+- Dataset: `Space_Corrected.csv`
+- Tasks Completed:
+  - Created two dummy score columns (`Score1` and `Score2`)
+  - Calculated the `Average Score`
+  - Sorted the dataset by `Average Score` in ascending order
+  - Displayed the sorted output
+
 
 ## Repository Structure
-Assignment_1/
-│── Python/
-│   └── assignment_1.py
-│── R/
-│   └── assignment_1.R
-│── Space_Corrected.csv
-│── Lab_Report_Assignment_1.pdf
-└── README.md
+
+```text
+.
+├── .gitignore
+├── Data_Analysis_Assignments1.Rproj
+├── LAB REPORT_ ASSIGNMENT 01 - Google Docs.pdf
+├── LAB REPORT_ ASSIGNMENT 02 - Google Docs.pdf
+├── LAB REPORT_ ASSIGNMENT 03 - Google Docs.pdf
+├── README.md
+├── Space_Corrected.csv
+├── assignment_1.R
+├── assignment_1.py
+├── assignment_2.R
+├── assignment_2.py
+├── assignment_3.R
+└── assignment_3.py
+```
 
 
 ## Technologies Used
-- Python
-- pandas
-- R
 
-## Results
-Both Python and R scripts executed successfully, loading the dataset and outputting all required data exploration results clearly without errors.
+- Python (pandas)
+- R (Base R)
+- CSV Dataset
+- Git & GitHub
 
-## Author
-Momota Sardar Maya
+     Author
+ Momota Sardar Maya 
